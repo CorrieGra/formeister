@@ -1,3 +1,4 @@
 # PROJECT
+dist
 *.env
 node_modules
