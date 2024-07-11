@@ -3,14 +3,13 @@
   "version": "1.0.0",
   "description": "A self-hosted dynamic form manager service",
   "main": "index.js",
-  "type": "module",
   "author": "Corrie Graham",
   "license": "MIT",
   "private": false,
   "scripts": {
     "build": "npx tsc",
     "start:local": "ts-node ./src/index.ts",
-    "start": "node ./dist/index.js"
+    "start": "node dist/index.js"
   },
   "dependencies": {
     "dotenv": "^16.4.5",

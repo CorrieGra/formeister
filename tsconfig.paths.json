@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": "./src",
     "paths": {
-      "@controllers/*": ["src/controllers/*"],
-      "@schemas/*": ["src/schemas/*"],
-      "@services/*": ["src/services/*"],
-      "@utils/*": ["src/utils/*"],
-      "@models/*": ["src/models/*"]
+      "@controllers/*": ["./controllers/*"],
+      "@schemas/*": ["./schemas/*"],
+      "@services/*": ["./services/*"],
+      "@utils/*": ["./utils/*"],
+      "@models/*": ["./models/*"]
     }
   }
 }
